@@ -106,7 +106,7 @@ header{
 }
 .container-input {
     position: relative;
-    margin-left: 30px;
+    margin-left: 43px;
     margin-top: 15px;
     display: flex;
     justify-content: flex-end;
@@ -146,7 +146,7 @@ header{
 .word{
   position: absolute;
   bottom: 40%;
-  margin-right: 45%;
+  margin-right: 47%;
   font-size: larger;
   color: #320f03;
 }
@@ -192,9 +192,74 @@ h5{
     color: #152730;
 }
 
-
+/* recommend */
+.recommend h2{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: #2f3e46;
+}
+.recommend img{
+    width: 300px;
+    height: 220px;
+    padding: 5px;
+    mix-blend-mode: color-burn;
+}
+.training{
+    display: flex;
+    background-color: #BFBAB2;
+    border-radius: 5px;
+}
 /* join our weekly news */
+.news{
+    padding-top: 20%;
+    text-align: center;
+}
+.news h2{
+    font-size: 3.5rem;
+    padding-bottom: 7%;
+    color: #2f3e46;
+}
 
+.box1{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+.box1:hover{
+    background-color: #d3d3d3;
+    transition: 0.3s;
+}
+.box2{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+.box2:hover{
+    background-color: #d3d3d3;
+    transition: 0.3s;
+}
+
+.button2{
+    width: 90px;
+    height: 45px;
+    border-radius: 8px;
+    
+
+}
+.button2:hover{
+    background-color: #36444b;
+    color: #cfd1d1;
+    transition: 0.3s;
+}
+::placeholder{
+    padding-right: 5px;
+}
 
 /* footer */
 .footer{ 
