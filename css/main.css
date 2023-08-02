@@ -44,22 +44,19 @@ nav ul li a:hover{
     cursor: pointer;
     position: relative;
     padding: 7px 20px;
-    color: white;
-    border: 2px solid #354f52;
+    border: 2px solid #2f3e46;
     border-radius: 34px;
-    background-color: transparent;
+    background-color:  #BFBAB2;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
     overflow: hidden;
     margin-left: -170px;
 }
 .button a{
-    color: #cad2c5;
+    color: #0c191f;
 } 
 
-.button a:hover{
-    color: #354f52;
-}
+
 
 .button::before {
     content: '';
@@ -71,7 +68,7 @@ nav ul li a:hover{
     border-radius: inherit;
     scale: 0;
     z-index: -1;
-    background-color: #cad2c5;
+    background-color:#939da2;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
   
@@ -80,9 +77,9 @@ nav ul li a:hover{
 }
   
 .button:hover {
-    color: #354f52;
+    color: #2f3e46;
     scale: 1.1;
-    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+    box-shadow: 0 0px 20px rgba(5, 5, 5, 0.4);
 }
 
 .button:active {
@@ -208,8 +205,10 @@ h5{
 }
 .training{
     display: flex;
-    background-color: #BFBAB2;
+    background-color: #b5b8ba;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
 }
 /* join our weekly news */
 .news{
@@ -224,10 +223,11 @@ h5{
 
 .box1{
     width: 500px;
-    height: 40px;
+    height: 50px;
     margin-left: 20px;
     border-radius: 10px;
     font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .box1:hover{
     background-color: #d3d3d3;
@@ -235,10 +235,11 @@ h5{
 }
 .box2{
     width: 500px;
-    height: 40px;
+    height: 50px;
     margin-left: 20px;
     border-radius: 10px;
     font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .box2:hover{
     background-color: #d3d3d3;
@@ -247,9 +248,10 @@ h5{
 
 .button2{
     width: 90px;
-    height: 45px;
+    height: 50px;
     border-radius: 8px;
     font-size: 1.1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 .button2:hover{
